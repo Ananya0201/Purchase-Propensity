@@ -48,7 +48,10 @@ The target feature and class label in the dataset is called Revenue and contains
 The research methodology outlined provides a robust framework for investigating online purchase behavior. By combining qualitative and quantitative approaches, the study aims to generate comprehensive insights into the factors driving online consumer behavior, which can inform both academic understanding and practical strategies for e-commerce businesses.
 ### 3. Exploratory Data Analysis
 Our dataset consists of numeric and categorical features. Amongst these features, the “BounceRates”, “ExitRates” and “PageValues” features represent the metrics measured by Google Analytics for each session on the e-commerce site. The key observations from our data analysis are:
+
 Our dataset is imbalanced, where only 15% of sessions ended in a purchase
+
 PageValues may be one of the most important feature in predicting a purchase conversion
+
 Many numeric features are right-skewed.
 
