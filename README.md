@@ -66,7 +66,7 @@ The research methodology outlined provides a robust framework for investigating 
 ### 3. Exploratory Data Analysis
 Our dataset consists of numeric and categorical features. Amongst these features, the “BounceRates”, “ExitRates” and “PageValues” features represent the metrics measured by Google Analytics for each session on the e-commerce site. The key observations from our data analysis are:
 
-Our dataset is imbalanced, where only 15% of sessions ended in a purchase
+Our dataset is imbalanced, where only 15.47% of sessions ended in a purchase
 
 PageValues may be one of the most important feature in predicting a purchase conversion
 
@@ -74,6 +74,20 @@ Many numeric features are right-skewed.
 
 ![Screenshot 2024-11-08 102244](https://github.com/user-attachments/assets/ee1ecb1b-ef0c-4aa6-88b7-fb9cb5847d4b)
 Fig.1 - Distribution of purchase conversion (target label)
+
+This dataset is imbalanced, where only 15.47% of sessions ended in a purchase. While 15% is not extremely imbalanced, we can still explore methods or algorithms that are better at dealing with an imbalanced dataset.
+
+![Screenshot 2024-11-08 102703](https://github.com/user-attachments/assets/38c9a701-bc47-4c12-ae30-efac236dc065)
+
+Fig 2: Importance of features contributing to Revenue conversion
+
+![Screenshot 2024-11-08 103222](https://github.com/user-attachments/assets/3f415071-30e8-4d6c-bbaa-09022b6a257a)
+
+Fig.3 - Line plot of Page Values
+
+
+PageValues is defined as the average page value of the pages visited by the user. In an e-commerce context, values are normally assigned to important pages such as checkout pages, or pages preceding the checkout process. As seen from Fig 2 , Page Value contributes significantly for revenue conversion and Fig 3 represents having a PageValues of above 50 increases the likelihood of purchase conversion. Hence, this PageValues feature provides a strong signal on whether the user will make a purchase or not.
+
 
 
 
