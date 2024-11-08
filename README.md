@@ -28,22 +28,39 @@ The dataset used in our analysis was obtained from the UC Irvine Machine Learnin
 Source Link: 
 ### https://www.openml.org/search?type=data&status=active&id=45060&sort=runs
 Since the data source is from a third party vendor, here is a brief description of some of the data follows. The dataset includes the following fields:
+
 1.Administrative :The number of pages of this type (administrative) visited by the user in that session.
+
 2.Administrative_Duration : The total amount of time (in seconds) spent by the user on administrative pages during the session.
+
 3.Informational: The number of informational pages visited by the user in that session.
+
 4.Informational_Duration : The total time spent by the user on informational pages.
+
 5.ProductRelated : The number of product-related pages visited by the user.
+
 6.ProductRelated_Duration : The total time spent by the user on product-related pages.
+
 7.BounceRates : The average bounce rate of the pages visited by the user. The bounce rate is the percentage of visitors who navigate away from the site after viewing only one page.
+
 8.ExitRates : The average exit rate of the pages visited by the user. The exit rate is a metric that shows the percentage of exits from a page.
+
 9.SpecialDay : This indicates the closeness of the site visiting time to a specific special day (e.g., Mother’s Day, Valentine's Day) in which the sessions are more likely to be finalized with a transaction.
+
 10.Month : The month of the year in which the session occurred. OperatingSystems: The operating system used by the user.
+
 11.Browser : The browser used by the user.
+
 12.Region : The region from which the user is accessing the website.
+
 13.TrafficType : The type of traffic (e.g., direct, paid search, organic search, referral).
+
 14.VisitorType : A categorization of users (e.g., Returning Visitor, New Visitor).
+
 15.Weekend : A boolean indicating whether the session occurred on a weekend.
+
 16.Revenue: This binary variable is the Target variable for prediction indicating whether the session ended in a transaction (purchase).
+
 The target feature and class label in the dataset is called Revenue and contains either a True or False value, which correspond to whether or not the user made a purchase on the website during their visit, respectively. It is worth noting that the dataset is unbalanced, as 85% of the sessions contain a False class label, with the remaining 15% containing a True label.
 The research methodology outlined provides a robust framework for investigating online purchase behavior. By combining qualitative and quantitative approaches, the study aims to generate comprehensive insights into the factors driving online consumer behavior, which can inform both academic understanding and practical strategies for e-commerce businesses.
 ### 3. Exploratory Data Analysis
