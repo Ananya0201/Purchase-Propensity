@@ -72,3 +72,6 @@ PageValues may be one of the most important feature in predicting a purchase con
 
 Many numeric features are right-skewed.
 
+![Screenshot 2024-11-08 102244](https://github.com/user-attachments/assets/ee1ecb1b-ef0c-4aa6-88b7-fb9cb5847d4b)
+
+
