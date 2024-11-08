@@ -26,7 +26,7 @@ Technological Factors: Website design, ease of navigation, and security features
 ### 2.1 Data Source
 The dataset used in our analysis was obtained from the UC Irvine Machine Learning Repository, a popular website with hundreds of datasets available for analysis. The creators of the dataset are C. Sakar and Yomi Kastro, and the original dataset can be obtained at [Sakar and Kasto, 2018] link.
 Source Link: 
-### https://www.openml.org/search?type=data status=active&id=45060&sort=runs
+### https://www.openml.org/search?type=data&status=active&id=45060&sort=runs
 Since the data source is from a third party vendor, here is a brief description of some of the data follows. The dataset includes the following fields:
 1.Administrative :The number of pages of this type (administrative) visited by the user in that session.
 2.Administrative_Duration : The total amount of time (in seconds) spent by the user on administrative pages during the session.
