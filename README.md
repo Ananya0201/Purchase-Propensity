@@ -73,6 +73,7 @@ PageValues may be one of the most important feature in predicting a purchase con
 Many numeric features are right-skewed.
 
 ![Screenshot 2024-11-08 102244](https://github.com/user-attachments/assets/ee1ecb1b-ef0c-4aa6-88b7-fb9cb5847d4b)
+
 Fig.1 - Distribution of purchase conversion (target label)
 
 This dataset is imbalanced, where only 15.47% of sessions ended in a purchase. While 15% is not extremely imbalanced, we can still explore methods or algorithms that are better at dealing with an imbalanced dataset.
