@@ -89,7 +89,7 @@ Fig 2: Importance of features contributing to Revenue conversion
 Fig.3 - Line plot of Page Values
 
 
-PageValues is defined as the average page value of the pages visited by the user. In an e-commerce context, values are normally assigned to important pages such as checkout pages, or pages preceding the checkout process. As seen from Fig 2 , Page Value contributes significantly for revenue conversion and Fig 3 represents having a PageValues of above 50 increases the likelihood of purchase conversion. Hence, this PageValues feature provides a strong signal on whether the user will make a purchase or not.
+PageValues is defined as the average page value of the pages visited by the user. In an e-commerce context, values are normally assigned to important pages such as checkout pages, or pages preceding the checkout process. As seen from Fig 3 , Page Value contributes significantly for revenue conversion and Fig 3 represents having a PageValues of above 50 increases the likelihood of purchase conversion. Hence, this PageValues feature provides a strong signal on whether the user will make a purchase or not.
 
 
 
