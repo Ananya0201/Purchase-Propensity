@@ -91,6 +91,14 @@ Fig.3 - Line plot of Page Values
 
 PageValues is defined as the average page value of the pages visited by the user. In an e-commerce context, values are normally assigned to important pages such as checkout pages, or pages preceding the checkout process. As seen from Fig 3 , Page Value contributes significantly for revenue conversion and Fig 3 represents having a PageValues of above 50 increases the likelihood of purchase conversion. Hence, this PageValues feature provides a strong signal on whether the user will make a purchase or not.
 
+### 4. Correlation plot of the dataset
+Based on the insight gathered on PageValues, we looked at the correlation between the given features to find how strongly are the features correlated.
+We see that a higher pageview value and a longer browsing duration are positively correlated with PageValues. This is intuitive, as a higher pageview and a longer browsing duration would indicate a high level of engagement from the user. For example, if a user already had an item in mind, they might spend more time on an e-commerce website to compare prices, reviews of similar products. A highly engaged user will be more likely to purchase than a passive user.
+Another feature of interest is ExitRates, which is negatively correlated with PageValues. ExitRates is defined as the average exit rate of the pages visited by the user. ExitRates is also positively correlated with BounceRates. This finding fits well in our ‘engaged user’ hypothesis: sessions with high ExitRates or BounceRates indicate a less engaged user, resulting in fewer purchase conversions.
+
+![Screenshot 2024-11-06 220609](https://github.com/user-attachments/assets/f52c9fa0-1fda-4bf5-b3d4-cf26e272ff62)
+
+Fig.4 - Correlation plot for all features
 
 
 
