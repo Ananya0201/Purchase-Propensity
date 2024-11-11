@@ -96,7 +96,7 @@ Based on the insight gathered on PageValues, we looked at the correlation betwee
 We see that a higher pageview value and a longer browsing duration are positively correlated with PageValues. This is intuitive, as a higher pageview and a longer browsing duration would indicate a high level of engagement from the user. For example, if a user already had an item in mind, they might spend more time on an e-commerce website to compare prices, reviews of similar products. A highly engaged user will be more likely to purchase than a passive user.
 Another feature of interest is ExitRates, which is negatively correlated with PageValues. ExitRates is defined as the average exit rate of the pages visited by the user. ExitRates is also positively correlated with BounceRates. This finding fits well in our ‘engaged user’ hypothesis: sessions with high ExitRates or BounceRates indicate a less engaged user, resulting in fewer purchase conversions.
 
-![Screenshot 2024-11-06 220609](https://github.com/user-attachments/assets/f52c9fa0-1fda-4bf5-b3d4-cf26e272ff62)
+![Screenshot 2024-11-11 145716](https://github.com/user-attachments/assets/5cd0f378-5778-45aa-a0f8-e7dba4f0155f)
 
 Fig.4 - Correlation plot for all features
 
